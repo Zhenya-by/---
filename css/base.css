@@ -1,0 +1,19 @@
+body {
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 15px;
+    color: #272727;
+    ;
+}
+
+/* grid */
+
+.container {
+    
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}

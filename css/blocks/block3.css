@@ -1,0 +1,40 @@
+
+.home3 {
+    height: 1821px;
+}
+
+.block_01 {
+    height: 518.62px;
+    display: flex;
+}
+.block_colus_1 {
+    flex: 1;
+    width: 455.11px;
+    height: 323.71px;
+}
+.h2_text {
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    padding-left: 51.43px;
+    text-align: start;
+}
+.p_text, span {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 51.43px;
+}
+.block_colus_2 {
+    flex: 1;
+
+
+}
+.img_right {
+    width: 668px;
+    height: 518px;
+    
+    background-image: url(/images/Group\ 2268.svg);
+}

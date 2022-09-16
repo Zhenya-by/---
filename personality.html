@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CONTACTS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
+    crossorigin="anonymous"
+    />
+    <style>
+     body {
+        background: url(images/071.jpg) no-repeat; /* Параметры фона */
+        background-size: 100%;
+        filter: brightness(0.9);
+       }    
+      .card {
+        border-radius: 2;
+        text-align: center;
+        padding: 1em;
+        
+      } 
+      .card:hover {
+        background-color: yellow;
+      }      
+      .card img {
+      border-radius: 50%;
+      margin: auto;
+      border: 3px solid green
+      }
+       </style>
+  </head>
+  
+  <body>
+      <!--Навигация-->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand p-0" href="index.html">
+          <img src="images/em.png" alt="evgeny merkulov" width="40"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Списки -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>                      
+            </ul>
+         </div>
+      </div>
+    </nav>  
+
+    
+    <div class="container my-3">
+      <div class="row row-cols-1 row-cols-2 row-cols-3 g-5">
+        <!-- Карточка -->
+        <div class="col">          
+        <div class="card" style="height: 45rem">
+          <img src="images/au.JPG" class="card-img-top" alt="Australia">
+          <div class="card-body">
+            <h5 class="card-title">СЕРФИНГ</h5>
+            <p class="card-text">Любительский вид спорта. Обучение и практика</p>
+            <a href="#" class="btn btn-primary">500$</a>
+          </div>
+        </div>
+        </div>
+        <div class="col">          
+          <div class="card" style="height: 45rem">
+            <img src="images/moneyex.jpg" class="card-img-top" alt="Australia">
+            <div class="card-body">
+              <h5 class="card-title">МАЙНИНГ</h5>
+              <p class="card-text">Обучение криптобизнесу</p>
+              <a href="#" class="btn btn-primary">BTC</a>
+            </div>
+          </div>
+          </div>
+          <div class="col">          
+            <div class="card" style="height: 45rem">
+              <img src="images/tl.JPG" class="card-img-top" alt="Australia">
+              <div class="card-body">
+                <h5 class="card-title">ПУТЕШЕСТВИЯ</h5>
+                <p class="card-text">Организация поездок</p>
+                <a href="#" class="btn btn-primary">1000$</a>
+              </div>
+            </div>
+            </div>
+      </div>
+      
+    
+
+   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> -->
+  </body>
+</html>
+
