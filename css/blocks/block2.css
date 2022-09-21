@@ -95,7 +95,8 @@ height: 569px;
     height: 424px;
     position: absolute;
     z-index: 0;
-    right: -218px;
+    background-position-x: 220px;
+    right: 0px;
     top: 811px;
 }
 
