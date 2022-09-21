@@ -1,6 +1,8 @@
 
 .home3 {
     height: 1821px;
+    position: relative;
+    z-index: 1;
 }
 
 .block_01 {
@@ -21,11 +23,13 @@
     flex: 1;
     width: 455.11px;
     height: 323.71px;
+    position: relative;
 }
 .block_colus_01 {
     flex: 1;
     width: 649px;
     height: 517px;
+    position: relative;
 }
 .h2_text {
     font-size: 35px;
@@ -51,6 +55,7 @@
     flex: 1;
     width: 649px;
     height: 517px;
+    position: relative;
 }
 .img_right0 {
     width: 668px;
@@ -67,4 +72,22 @@
     width: 682px;
     height: 542px;
     background-image: url(/images/Group\ 2270.svg);
+}
+
+.spot_01 {
+    position: absolute;
+    left: 20px;
+    bottom: 90px
+}
+
+.spot_02 {
+    position: absolute;
+    left: 20px;
+    top: 63px;
+}
+
+.spot_03 {
+    position: absolute;
+    left: 20px;
+    top: 63px;
 }

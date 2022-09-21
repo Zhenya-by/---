@@ -1,5 +1,5 @@
 .home {
-    height: 793px;
+    height: 637px;
     min-height: 463px;
     position: relative;
     z-index: 40;
@@ -43,22 +43,30 @@
     
     
     background-repeat:no-repeat;
-    background-size: 100%;
     position: absolute;
     background-size: cover;
     min-width: 900px;
-    background-position: center;
-    top: 0;
-    margin-top: -300px;
-    width: 100%;
-    height: 1093px;
-    background-image: url(/images/Group\ 2264.png);
+    background-position: bottom;
     
+    top: 0;
+    margin-top: 0px;
+    width: 100%;
+    height: 793px;
+    background-image: url(/images/Bg.svg);
     
     z-index: 0;
-
-
-
+}
+.home-bg-imm1{
+    background-image: url(/images/3\ Copy.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 1920px;
+    width: 1829.02px;
+    height: 734.13px;
+    top: -34px;
+    right: -422px;
+    position: absolute;
+    z-index: 0;
 }
 /*.home-bg-imm1{
     background-image: url(/images/Curves.svg);
