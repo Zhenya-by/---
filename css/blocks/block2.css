@@ -16,9 +16,11 @@ height: 569px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    margin: 0 -35px;
+    grid-gap: 70px;
     padding-top: 96px;
-    height: 630px;
+    height: 280px;
+    margin-left: 93px;
+    margin-right: 93px;
 
 }
 
@@ -38,27 +40,29 @@ height: 569px;
     z-index: 3;
     text-align: center;
     margin-top: 10.75px;
+    opacity: 0.7;
 }
 
 
 .card_conteiner_1 {
     flex: 1;
     width: 280px;
-    height: 380px;
-    margin: 0 35px;
+    height: 280px;
+    
 }
 
 .image1 {
     background-image: url(/images/Group\ 2265.svg);
     height: 152px;
     width: 229px;
+    background-size: cover;
     
 }
 .card_conteiner_2 {
     flex: 1;
     width: 280px;
-    height: 380px;
-    margin: 0 35px;
+    height: 280px;
+    
     
 }
 .image2 {
@@ -67,17 +71,19 @@ height: 569px;
     background-image: url(/images/Group\ 2266.svg);
     margin-bottom: 22px;
     display: block;
+    background-size: cover;
 }
 .card_conteiner_3 {
     flex: 1;
     width: 280px;
-    height: 380px;
-    margin: 0 35px;
+    height: 280px;
+    
 }
 .image3 {
     height: 152px;
     width: 229px;
     background-image: url(/images/Group\ 2267.svg);
+    background-size: cover;
 }
 .style_svg{
     background-image: url(/images/Style.svg);
@@ -86,7 +92,7 @@ height: 569px;
     position: absolute;
     z-index: 0;
     left: -335px;
-    top: 1157px;
+    top: 1000px;
 }
 .style_svg1{
     background-image: url(/images/Style1.svg);

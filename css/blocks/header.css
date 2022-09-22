@@ -22,9 +22,12 @@
     padding-left: 12px;
     
 }
+
 .header-nav a {
     font-weight: 600;
     color: #ffffff;
+    opacity: 0.5;
+    
 
 }
 .header-nav ul{
